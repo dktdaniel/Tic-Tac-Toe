@@ -2,7 +2,19 @@ import React, { Component } from 'react';
 import { Header, Table } from 'semantic-ui-react';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      board: [[0,0,0], 
+              [0,0,0], 
+              [0,0,0]]
+    };
+  }
 
+  handleClick() {
+    
+  }
+  
   render() {
     return (
       <div className="App">
